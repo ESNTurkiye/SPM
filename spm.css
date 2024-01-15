@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar--content {
+    background-color: #ff4500; 
+    color: #ffffff; 
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar--logo {
+    max-width: 100px;
+}
+.navbar--text {
+    margin: 0 10px;
+}
+.second-navbar {
+    background-color: #f8f9fa; 
+    padding: 1px; 
+    justify-content: center;
+    display: flex;
+}
+.second-navbar a {
+    color: #ff4500; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin: 0 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+.second-navbar a:hover {
+    background-color: #ff4500; 
+    color: #fff;
+}
+.about {
+    padding: 50px 0;
+    
+}
+.about--content {
+    display: flex;
+    align-items: center;
+}
+.about--img {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.about--text {
+    max-width: 600px;
+    margin-left: 50px;
+}
+.mb-4 {
+    text-align: center;
+}
+.oc--card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff4500;
+}
+.oc--img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+.contact { 
+    padding: 50px 0;
+}
+.location {
+    text-align: left;
+}
+.address-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.address-icon a {
+    font-size: 24px;
+    color: #ff4500;
+}
+.footer {
+    background-color: #ff4500; 
+    color: #ffffff; 
+    padding: 20px 0;
+}
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.icon-bar ul {
+    padding: 0;
+    margin: 0;
+}
+.icon-bar li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.icon-bar a {
+    display: block;
+    font-size: 24px;
+    color: #ff4500; 
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .navbar--text {
+        margin: 10px 0;
+    }
+    
+}
